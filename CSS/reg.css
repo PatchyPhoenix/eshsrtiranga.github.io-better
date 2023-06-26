@@ -86,7 +86,7 @@ animation: fadeIn 0.5s;
 }
 
 .submitbutton:hover{
-color: whitesmoke;
+color: white;
 background-color: #2e5dd1;
 cursor: pointer;
 transform: translateY(-6px);
