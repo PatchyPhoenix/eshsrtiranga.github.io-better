@@ -32,9 +32,10 @@ margin-bottom: 200px;
 display: inline-block;
 text-align: center;
 margin-top: 160px;
+ padding:;
 align-items: center;
 flex-direction: column;
-background: rgba(0, 0, 0, 0.1);
+background-color: white;
 box-shadow: 0 0 10px rgba(0, 0, 0, 2);
 animation: fadeIn 3.5s;
 
@@ -51,16 +52,13 @@ animation: fadeIn 2.5s;
 }
 
 .number{
-
+cursor:pointer;
 height: 20px;
 width: 200px;
 margin-top: 20px;
 margin-left: 60px;
 margin-right: 60px;
-width: 200px;
-outline: none;
 border-radius: 40px;
-background: transparent;
 padding: 10px;
 font-size: 13px;
 color: white;
@@ -77,15 +75,15 @@ height: 30px;
 border: none;
 border-radius: 15px;
 color: white;
-background-color: blue;
+background-color: #004d93;
 transition: color 1s, background-color 1s;
 transition: transform 0.5s;
 animation: fadeIn 0.5s;
 }
 
 .submitbutton:hover{
-color: blue;
-background-color: white;
+color: white;
+background-color: #2e5dd1;
 cursor: pointer;
 transform: translateY(-6px);
 }
@@ -94,75 +92,30 @@ transform: translateY(-6px);
 opacity: 0.6;
 }
 
-.School{
-display: inline;
-width: 200px;
-margin-top: 20px;
-margin-left: 60px;
-margin-right: 60px;
-width: 200px;
-outline: none;
-border-radius: 40px;
-background: transparent;
-padding: 10px;
-font-size: 13px;
-color: white;
-animation: fadeIn 1.5s;
-}
-
-.Event{
-display: inline;
-width: 200px;
-margin-top: 20px;
-margin-left: 60px;
-margin-right: 60px;
-width: 200px;
-outline: none;
-border-radius: 40px;
-background: transparent;
-padding: 10px;
-font-size: 13px;
-color: indianred;
-animation: fadeIn 1.5s;
-}
-
-.Address{
-width: 200px;
-margin-top: 20px;
-margin-left: 60px;
-margin-right: 60px;
-width: 200px;
-outline: none;
-border-radius: 40px;
-background: transparent;
-padding: 10px;
-font-size: 13px;
-color: white;
-animation: fadeIn 1.5s;
-}
 
 .name{
-color: #a8d2e7;
+color: #004d93;
 animation: fadeIn 1.4;
 }
 
 .label {
-background: transparent;
-border: 1px solid #666;
+background-color: #004d93;
 color: white;
-padding: 10px 15px;
+padding: 15px;
+padding-bottom:30px;
 text-align: center;
 display: inline-block;
 font-size: 20px;
-margin: 15px 15px;
+margin: 30px;
 cursor: pointer;
 }
 
 .heading {
-background: transparent;
-border: 1px solid #666;
-color: white;
-padding: 10px 15px;
+ border-radius:10px;
+background-color: white;
+border: 1px solid #004d93;
+color: #004d93;
+padding: 10px;
 text-align: center;
 display: inline-block;
 font-size: 20px;
