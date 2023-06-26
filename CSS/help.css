@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Roboto:wght@700;100&display=swap');
+@font-face{
+  font-family:P-Light;
+  src: url('https://patchyphoenix.github.io/eshsrtiranga.github.io-better/fonts/Poppins-Light.woff') format('woff');
+}
 
 
 @-webkit-keyframes fadeIn {
@@ -26,7 +29,7 @@
     padding: 0;
     margin: 0;
     /* color: #361106; */
-    font-family: "Roboto";
+    font-family: P-Light;
 }
 html,
 body {
@@ -78,7 +81,7 @@ h1,
   transition: 0.4s;
   text-decoration: none;
   color: black;
-  border: green; solid 1px;
+  border: green solid 1px;
   padding: 9px 20px;
   border-radius: 22px;
 
