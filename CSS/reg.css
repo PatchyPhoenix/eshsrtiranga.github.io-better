@@ -18,14 +18,14 @@
 
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url(image1.jpg)
+    background-image: url("https://patchyphoenix.github.io/eshsrtiranga.github.io-better/Resources/Images/image1.jpg")
 
 }
 
 
 
 .centre{
-
+border-radius:100px;
 margin-left: 35%;
 margin-right: 35%;
 margin-bottom: 200px;
@@ -35,7 +35,6 @@ margin-top: 160px;
 align-items: center;
 flex-direction: column;
 background: white;
-box-shadow: 0 0 10px rgba(0, 0, 0, 2);
 animation: fadeIn 3.5s;
 
 
@@ -51,7 +50,7 @@ animation: fadeIn 2.5s;
 }
 
 .number{
-
+background-color: #004d93;
 height: 20px;
 width: 200px;
 margin-top: 20px;
@@ -59,10 +58,12 @@ margin-left: 60px;
 margin-right: 60px;
 width: 200px;
 outline: none;
+text-decoration:none;
+border:0px;
 border-radius: 40px;
 padding: 10px;
 font-size: 13px;
-color: black;
+color: white;
 animation: fadeIn 1s;
 
 }
@@ -78,7 +79,7 @@ height: 35px;
 border: none;
 border-radius: 100px;
 color: white;
-background-color: #2952b8;
+background-color: #004d93;
 transition: color 1s, background-color 1s;
 transition: all 0.5s;
 animation: fadeIn 0.5s;
@@ -96,6 +97,8 @@ opacity: 0.6;
 }
 
 .School{
+background-color: #004d93;
+border:0px;
 display: inline;
 width: 200px;
 margin-top: 20px;
@@ -106,11 +109,13 @@ outline: none;
 border-radius: 40px;
 padding: 10px;
 font-size: 13px;
-color: black;
+color: white;
 animation: fadeIn 1.5s;
 }
 
 .Event{
+background-color: #004d93;
+border:0px;
 display: inline;
 width: 200px;
 margin-top: 20px;
@@ -121,11 +126,13 @@ outline: none;
 border-radius: 40px;
 padding: 10px;
 font-size: 13px;
-color: black;
+color: white;
 animation: fadeIn 1.5s;
 }
 
 .Address{
+background-color: #004d93;
+border:0px;
 width: 200px;
 margin-top: 20px;
 margin-left: 60px;
@@ -135,11 +142,11 @@ outline: none;
 border-radius: 40px;
 padding: 10px;
 font-size: 13px;
-color: black;
+color: white;
 animation: fadeIn 1.5s;
 }
 
 .name{
-color: #a8d2e7;
+color: #004d93;
 animation: fadeIn 1.4;
 }
