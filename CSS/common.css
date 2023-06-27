@@ -362,4 +362,9 @@
     opacity: 0;
   }
 
+  .button
+  {
+    font-size: 60px;
+  }
+
   /* #endregion */
