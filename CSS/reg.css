@@ -14,6 +14,10 @@
     100% {opacity: 1;}
  }
 
+::placeholder{
+ color:white;
+}
+
 .page {
 
     background-repeat:no-repeat;
