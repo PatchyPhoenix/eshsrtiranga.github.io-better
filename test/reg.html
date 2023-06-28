@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href="reg.css"/>
+	<title>Register</title>
+</head>
+
+<body class="page">
+
+	<div class="centre">
+
+		<div>
+
+			<img src="https://eurolitfest.github.io/Home/images/logo.png" class="logo">
+
+		</div>
+
+		<h1 class="name">EuroSchool HSR</h1>
+
+
+
+		<form id = "registerForm" method="POST" name="google-sheet">
+
+			
+            <label>School Name</label>
+        <br>
+        <input id = "name" class = "textInput" type="text" required>
+
+        <br>
+
+        <label>Address</label>
+        <br>
+        <input id = "address" class = "textInput" type="text" required>
+        
+        <br>
+
+        <label>Contact Number</label>
+        <br>
+        <input id = "number" class = "textInput" type="tel" required>
+
+        <br>
+
+        <label>Email Address</label>
+        <br>
+        <input id = "email" class = "textInput" type="email" required>
+
+    <br><br>
+    <div class="dropdown">
+        <button type = "button" class="dropbtn">Category</button>
+        <div class="dropdown-content">
+        <input name = "radio" id = "1" type="radio" > Nursery, Junior KG, Senior KG<br>
+        <input name = "radio" id = "2" type="radio" > Grade 1-2<br>
+        <input name = "radio" id = "3" type="radio" > Grade 3-5<br>
+        <input name = "radio" id = "4" type="radio" > Grade 6-8<br>
+        <input name = "radio" id = "5" type="radio" > Grade 9-12<br>
+        </div>
+      </div>
+    <br>
+    Nursery, Junior KG, Senior KG
+    <br>
+    <div id = "cat1" class="dropdown">
+        <button type = "button" class="dropbtn">Events</button>
+        <div class="dropdown-content">
+        <input name = "check" id = "1" type="checkbox" > 1<br>
+        <input name = "check" id = "2" type="checkbox" > 2<br>
+        <input name = "check" id = "3" type="checkbox" > 3<br>
+        <input name = "check" id = "4" type="checkbox" > 4<br>
+        </div>
+      </div>
+      <br>
+      Grade 1-2
+      <br>
+      <div id = "cat2" class="dropdown">
+        <button type = "button" class="dropbtn">Events</button>
+        <div class="dropdown-content">
+        <input name = "check" id = "1" type="checkbox" > 1<br>
+        <input name = "check" id = "2" type="checkbox" > 2<br>
+        <input name = "check" id = "3" type="checkbox" > 3<br>
+        <input name = "check" id = "4" type="checkbox" > 4<br>
+        <input name = "check" id = "5" type="checkbox" > 5<br>
+        <input name = "check" id = "6" type="checkbox" > 6<br>
+        </div>
+      </div>
+
+
+      <br>
+      <button class = "submitbutton" name = "submit">Register</button>
+
+
+
+				<!--<select name="Event" class="Event" >
+  					<option value="Dress up and Talk">Dress up and Talk</option>
+  					<option value="Colouring">Colouring</option>
+  					<option value="Flag Run">Flag Run</option>
+  					<option value="Poem Recitation">Poem Recitation</option>
+  					<option value="Drawing and Painting">Drawing and Painting< option>
+  					<option value="Collage Making">Collage Making</option>
+  					<option value="Best of Waste">Best of Waste</option>
+  					<option value="Monument Pencil Sketching">Monument Pencil Sketching</option>
+  					<option value="Group dance -Indian">Group dance -Indian</option>
+  					<option value="Solo-Classical">Solo-Classical</option>
+  					<option value="Group dance-Fusion">Group dance-Fusion</option>
+  					<option value="Group Song">Group Song</option>
+  					<option value="Solo song">Solo song</option>
+  					<option value="Live Band">Live Band</option>
+  					<option value="Flower arrangement">Flower arrangement</option>
+  					<option value="Mime">Mime</option>
+  					<option value="Rangoli">Rangoli</option>
+  					<option value="Declamation">Declamation</option>
+  					<option value="Elocution">Elocution</option>
+  					<option value="Quiz">Quiz</option>
+  					<option value="Tablaeu">Tablaeu</option>
+  					<option value="JAM">JAM</option> -->
+
+					<!-- <select name="1Event" class="Event" >
+  					<option value="Dress up and Talk">Dress up and Talk</option>
+  					<option value="Colouring">Colouring</option>
+  					<option value="Flag Run">Flag Run</option>
+  					<option value="Poem Recitation">Poem Recitation</option>
+  					<option value="Drawing and Painting">Drawing and Painting</option>
+  					<option value="Collage Making">Collage Making</option>
+  					<option value="Best of Waste">Best of Waste</option>
+  					<option value="Monument Pencil Sketching">Monument Pencil Sketching</option>
+  					<option value="Group dance -Indian">Group dance -Indian</option>
+  					<option value="Solo-Classical">Solo-Classical</option>
+  					<option value="Group dance-Fusion">Group dance-Fusion</option>
+  					<option value="Group Song">Group Song</option>
+  					<option value="Solo song">Solo song</option>
+  					<option value="Live Band">Live Band</option>
+  					<option value="Flower arrangement">Flower arrangement</option>
+  					<option value="Mime">Mime</option>
+  					<option value="Rangoli">Rangoli</option>
+  					<option value="Declamation">Declamation</option>
+  					<option value="Elocution">Elocution</option>
+  					<option value="Quiz">Quiz</option>
+  					<option value="Tablaeu">Tablaeu</option>
+  					<option value="JAM">JAM</option>
+
+				</select>
+
+					<select name="2Event" class="Event" >
+  					<option value="Dress up and Talk">Dress up and Talk</option>
+  					<option value="Colouring">Colouring</option>
+  					<option value="Flag Run">Flag Run</option>
+  					<option value="Poem Recitation">Poem Recitation</option>
+  					<option value="Drawing and Painting">Drawing and Painting</option>
+  					<option value="Collage Making">Collage Making</option>
+  					<option value="Best of Waste">Best of Waste</option>
+  					<option value="Monument Pencil Sketching">Monument Pencil Sketching</option>
+  					<option value="Group dance -Indian">Group dance -Indian</option>
+  					<option value="Solo-Classical">Solo-Classical</option>
+  					<option value="Group dance-Fusion">Group dance-Fusion</option>
+  					<option value="Group Song">Group Song</option>
+  					<option value="Solo song">Solo song</option>
+  					<option value="Live Band">Live Band</option>
+  					<option value="Flower arrangement">Flower arrangement</option>
+  					<option value="Mime">Mime</option>
+  					<option value="Rangoli">Rangoli</option>
+  					<option value="Declamation">Declamation</option>
+  					<option value="Elocution">Elocution</option>
+  					<option value="Quiz">Quiz</option>
+  					<option value="Tablaeu">Tablaeu</option>
+  					<option value="JAM">JAM</option>
+				</select>
+
+				<select name="3Event" class="Event" >
+  					<option value="Dress up and Talk">Dress up and Talk</option>
+  					<option value="Colouring">Colouring</option>
+  					<option value="Flag Run">Flag Run</option>
+  					<option value="Poem Recitation">Poem Recitation</option>
+  					<option value="Drawing and Painting">Drawing and Painting</option>
+  					<option value="Collage Making">Collage Making</option>
+  					<option value="Best of Waste">Best of Waste</option>
+  					<option value="Monument Pencil Sketching">Monument Pencil Sketching</option>
+  					<option value="Group dance -Indian">Group dance -Indian</option>
+  					<option value="Solo-Classical">Solo-Classical</option>
+  					<option value="Group dance-Fusion">Group dance-Fusion</option>
+  					<option value="Group Song">Group Song</option>
+  					<option value="Solo song">Solo song</option>
+  					<option value="Live Band">Live Band</option>
+  					<option value="Flower arrangement">Flower arrangement</option>
+  					<option value="Mime">Mime</option>
+  					<option value="Rangoli">Rangoli</option>
+  					<option value="Declamation">Declamation</option>
+  					<option value="Elocution">Elocution</option>
+  					<option value="Quiz">Quiz</option>
+  					<option value="Tablaeu">Tablaeu</option>
+  					<option value="JAM">JAM</option>
+				</select>
+
+				<select name="4Event" class="Event" >
+  					<option value="Dress up and Talk">Dress up and Talk</option>
+  					<option value="Colouring">Colouring</option>
+  					<option value="Flag Run">Flag Run</option>
+  					<option value="Poem Recitation">Poem Recitation</option>
+  					<option value="Drawing and Painting">Drawing and Painting</option>
+  					<option value="Collage Making">Collage Making</option>
+  					<option value="Best of Waste">Best of Waste</option>
+  					<option value="Monument Pencil Sketching">Monument Pencil Sketching</option>
+  					<option value="Group dance -Indian">Group dance -Indian</option>
+  					<option value="Solo-Classical">Solo-Classical</option>
+  					<option value="Group dance-Fusion">Group dance-Fusion</option>
+  					<option value="Group Song">Group Song</option>
+  					<option value="Solo song">Solo song</option>
+  					<option value="Live Band">Live Band</option>
+  					<option value="Flower arrangement">Flower arrangement</option>
+  					<option value="Mime">Mime</option>
+  					<option value="Rangoli">Rangoli</option>
+  					<option value="Declamation">Declamation</option>
+  					<option value="Elocution">Elocution</option>
+  					<option value="Quiz">Quiz</option>
+  					<option value="Tablaeu">Tablaeu</option>
+  					<option value="JAM">JAM</option>
+				</select> -->
+				<!-- <input type="checkbox" name="Event" class="number" value="Dress up and Talk" required>
+				<input type="checkbox" name="Event" class="number" value="Colouring" required>
+				<input type="checkbox" name="Event" class="number" value="Flag Run" required>
+				<input type="checkbox" name="Event" class="number" value="Poem Recitation" required>
+				<input type="checkbox" name="Event" class="number" value="Drawing and Painting" required>
+				<input type="checkbox" name="Event" class="number" value="Collage Making" required>
+				<input type="checkbox" name="Event" class="number" value="Best of Waste" required>
+				<input type="checkbox" name="Event" class="number" value="Monument Pencil Sketching " required>
+				<input type="checkbox" name="Event" class="number" value="Group dance -Indian" required>
+				<input type="checkbox" name="Event" class="number" value="Solo-Classical" required>
+				<input type="checkbox" name="Event" class="number" value="Group dance-Fusion" required>
+				<input type="checkbox" name="Event" class="number" value="Group Song" required>
+				<input type="checkbox" name="Event" class="number" value="solo song" required>
+				<input type="checkbox" name="Event" class="number" value="Live Band" required>
+				<input type="checkbox" name="Event" class="number" value="Flower arrangement" required>
+				<input type="checkbox" name="Event" class="number" value="Mime" required>
+				<input type="checkbox" name="Event" class="number" value="Rangoli" required>
+				<input type="checkbox" name="Event" class="number" value="Declamation" required>
+				<input type="checkbox" name="Event" class="number" value="Elocution" required>
+				<input type="checkbox" name="Event" class="number" value="Quiz" required>
+				<input type="checkbox" name="Event" class="number" value="Tablaeu" required>
+				<input type="checkbox" name="Event" class="number" value="JAM" required>
+ -->
+
+ 				<!-- <button   type="submit"  class="submitbutton" name="submit"  >submit</button> -->
+ 				<!-- <button class="submitbutton" name="submit">Register</button> -->
+
+		</form>
+		
+    <script src = "script.js"></script>
+
+	</div>
+
+	<!--<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby3HINZLQ8ojdP3LdkRPKsdAZ8Zdvxb5LhhAL776-QZhxf9arhm_jVsI_opXqqrkeRu/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener ('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => window.location = "#")
+                .catch(error => console.error('Error!', error.message))
+            })
+            
+          </script>-->
+
+</body>
+
+</html>
